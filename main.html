@@ -8,23 +8,23 @@
 
 <body>
 	
- <form>
+ <form action=" " method="POST">
 	  <div>
 		  <label for="name">Name*</label>
-		  <input type="text" placeholder="Name" required>
+		  <input type="text" placeholder="Name" id="name" required>
 	  </div>
 	  <div>
 		  <label for="email">Email*</label>
-		  <input type="email" placeholder="Email"required>
+		  <input type="email" placeholder="Email" id="email" required>
 	  </div>
 	  <div>
 		  <label for="gender">Gender*</label>
-		  <input type="radio" value="Male" name="Gender"required> Male
-		  <input type="radio" value="Female" name="Gender" required>Female
+		  <input type="radio" value="Male" name="Gender" id="gender_m" required> Male
+		  <input type="radio" value="Female" name="Gender" id="gender_f" required>Female
 	  </div>
 	 <div>
 		  <label for="Car brands">Car Brands*</label>
-		 <select name="Car Brands" >
+		 <select name="Car Brands" id="cars" >
 			 <option placeholder="--Please choose an option--">--Please choose an option--</option>
 			 <option value="BMW">BMW </option>
 			 	<option value="Audi">Audi</option>
@@ -33,24 +33,24 @@
      </div>
 	 <div>
 		 <label for="Age">Age*</label> 
-		 <input type="number" required placeholder="Age">
+		 <input type="number" required placeholder="Age" id="age">
 	 </div>
 
 	 <div>
 		 <label for="DOB">DOB*</label> 
-		 <input type="Date" required >
+		 <input type="Date" required id="age" >
 	 </div>
 	 <div>
 		 <label for="dob">Phone number*</label> 
-		 <input type="tel" required placeholder="xxx-xxx-xxxx" >
+		 <input type="tel" required placeholder="xxx-xxx-xxxx" id="tel" >
 	 </div>
 	 <div>
 		 <label for="Password">Password*</label> 
-		 <input type="Password" required placeholder="Password" >
+		 <input type="Password" required placeholder="Password" id="password ">
 	 </div>
 	 <div>
 		 <label for="text">I agree to the TOS*</label> 
-		 <input type="checkbox" required >
+		 <input type="checkbox" required id="tos" >
 	 </div>
 	 <button>
 		 submit
